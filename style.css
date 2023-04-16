@@ -20,32 +20,16 @@ body {
   /* background-color: #dedddf; */
 }
 
-.form {
-  /* background-color: #fff; */
-  /* width: 90rem; */
-  /* margin: 0 auto; */
-}
-
 .forms {
   display: flex;
 }
 
-.img__box {
-  /* background-image: url(images/bg-main-desktop.png); */
-  /* background-image: linear-gradient(to right bottom, #6448fe, #600594); */
-  /* width: 25%; */
-}
-
 .form__box {
-  /* background-color: #dedddf; */
   display: flex;
   flex-direction: column;
-  /* width: 75%; */
-  /* margin: auto; */
-  /* padding: 10rem 20rem; */
+
   gap: 3rem;
   padding: 31rem;
-  /* width: 20rem; */
 }
 .name__box {
   display: flex;
@@ -93,15 +77,9 @@ body {
   position: absolute;
   width: 42rem;
   height: 21rem;
-  /* width: 24vw;
-  height: 30vh; */
-  /* width: 24%;
-  height: 30%; */
   top: 20%;
   left: 20%;
-
   border-radius: 1rem;
-  /* margin-bottom: 20rem; */
 }
 
 .card__logo {
@@ -134,22 +112,14 @@ body {
 }
 
 .back__card {
-  /* display: none; */
   background-image: url(images/bg-card-back.png);
   background-size: cover;
-  /* width: 24%;
-  height: 30%; */
   width: 42rem;
   height: 21rem;
   border-radius: 1rem;
-
   position: absolute;
-  /* width: 22%; */
   bottom: 25%;
-
   left: 25%;
-
-  /* margin-bottom: 20rem; */
 }
 
 .back__number {
@@ -185,12 +155,10 @@ body {
   font-weight: 300;
 }
 
-/* 
 .attribution {
-  font-size: 11px;
+  font-size: 1.5rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }
-*/
