@@ -107,6 +107,8 @@ function validateForm(e) {
     cardNumber.style.border = "1px solid #0000003b";
   }
 
+  //
+
   // VALIDATNG THE YEAR TO CONTAIN ONLY NUMBERS
   const monthExpiry = expiryMonth.value.trim();
   const yearExpiry = expiryYear.value.trim();
@@ -137,6 +139,9 @@ function validateForm(e) {
     errorCvc.style.display = "none";
     cvc.style.border = "1px solid #0000003b";
   }
+
+  //
+
   // IF ALL FIELDS ARE VALID
   formBox.style.display = "none";
   success.style.display = "flex";
