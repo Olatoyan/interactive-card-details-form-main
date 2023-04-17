@@ -19,10 +19,15 @@
   border: 1px solid #0000003b;
 }
 
+.error__month,
+.error__year,
 .error__name,
+.error__name-short,
+.error__num,
 .error__number,
 .error__expiry,
-.error__cvc {
+.error__cvc,
+.error__cvc-num {
   display: none;
   font-weight: 600;
   font-size: 1.1rem;

@@ -43,6 +43,9 @@
               class="input__details"
             />
             <p class="error__name">Wrong format, letters only</p>
+            <p class="error__name-short">
+              Name is too short, must be at least 7 characters long
+            </p>
           </div>
           <div class="name__box gap">
             <label class="input-name uppercase" for="card-number"
@@ -57,6 +60,7 @@
               maxlength="16"
             />
             <p class="error__number">Wrong format, numbers only</p>
+            <p class="error__num">Number is not complete</p>
           </div>
 
           <div class="info__box">
@@ -65,22 +69,29 @@
                 >Exp. Date (MM/YY)</label
               >
               <div class="expiry__box">
-                <input
-                  type="text"
-                  name="month"
-                  id="expiry__month"
-                  placeholder="MM"
-                  class="input__details"
-                  maxlength="2"
-                />
-                <input
-                  type="text"
-                  name="year"
-                  id="expiry__year"
-                  placeholder="YY"
-                  class="input__details"
-                  maxlength="2"
-                />
+                <div>
+                  <input
+                    type="text"
+                    name="month"
+                    id="expiry__month"
+                    placeholder="MM"
+                    class="input__details"
+                    maxlength="2"
+                  />
+                  <p class="error__month">Month is not valid</p>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    name="year"
+                    id="expiry__year"
+                    placeholder="YY"
+                    class="input__details"
+                    minlength="2"
+                    maxlength="2"
+                  />
+                  <p class="error__year">Year is not valid</p>
+                </div>
               </div>
               <p class="error__expiry">Wrong format, numbers only</p>
             </div>
@@ -95,6 +106,7 @@
                 maxlength="3"
               />
               <p class="error__cvc">Wrong format, numbers only</p>
+              <p class="error__cvc-num">Number not complete</p>
             </div>
           </div>
           <button class="btn">Confirm</button>
