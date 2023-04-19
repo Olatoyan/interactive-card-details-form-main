@@ -21,6 +21,7 @@ const errorCvcNum = document.querySelector(".error__cvc-num");
 const form = document.querySelector(".form");
 const formBox = document.querySelector(".form__box");
 const success = document.querySelector(".success");
+const continueBtn = document.querySelector(".continue");
 const detailsNumber = cardDetailsNumber.textContent;
 const detailsName = cardDetailsName.textContent;
 const monthContent = cardExpiryMonth.textContent;
@@ -186,4 +187,8 @@ function validateForm(e) {
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   validateForm();
+});
+
+continueBtn.addEventListener("click", function () {
+  window.location.href = "index.html";
 });
