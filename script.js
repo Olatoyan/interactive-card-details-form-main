@@ -194,3 +194,4 @@ continueBtn.addEventListener("click", function () {
 });
 
 let s;
+let q;
