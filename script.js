@@ -196,3 +196,4 @@ continueBtn.addEventListener("click", function () {
 let po;
 let k;
 let q;
+let s;
