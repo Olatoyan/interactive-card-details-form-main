@@ -192,8 +192,3 @@ form.addEventListener("submit", function (e) {
 continueBtn.addEventListener("click", function () {
   window.location.href = "index.html";
 });
-
-let po;
-let k;
-let q;
-let s;
